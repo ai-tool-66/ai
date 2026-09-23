@@ -1,5 +1,3 @@
-
-
 import { fileURLToPath } from 'url';
 import { cmd } from '../command.js';
 import axios from 'axios';
@@ -33,7 +31,7 @@ cmd({
     category: "download",
     react: "🎧",
     filename: __filename
-}, async (conn, mek, m, { from, text, reply }) => {
+}, async (conn, mek, m, { from, q: text, reply }) => {
     try {
         if (!text) return reply("❌ Please provide song name\nExample: .play Shape of You");
 
@@ -124,7 +122,7 @@ cmd({
     category: "download",
     react: "📹",
     filename: __filename
-}, async (conn, mek, m, { from, text, reply }) => {
+}, async (conn, mek, m, { from, q: text, reply }) => {
     try {
         if (!text) return reply("🎥 Please provide a video name or link!\n\nExample: `.video Alone Marshmello`");
 
@@ -209,7 +207,7 @@ cmd({
     category: "download",
     react: "🎧",
     filename: __filename
-}, async (conn, mek, m, { from, text, reply }) => {
+}, async (conn, mek, m, { from, q: text, reply }) => {
     try {
         if (!text) return reply("🎶 Please provide a YouTube video name or link.\n\nExample: `.song Alone - Alan Walker`");
 
