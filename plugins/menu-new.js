@@ -218,5 +218,3 @@ ${menuSections}
         reply(`Error: ${e}`);
     }
 });
-    } 
-});
