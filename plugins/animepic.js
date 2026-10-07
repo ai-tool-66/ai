@@ -1,4 +1,5 @@
 
+// SAHIL-MD
 import { fileURLToPath } from 'url';
 import path from 'path';
 import { cmd } from '../command.js';
@@ -28,7 +29,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `💖 *Anime Waifu*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `💖 *Anime Waifu*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -51,7 +52,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🐱 *Anime Neko*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🐱 *Anime Neko*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -74,7 +75,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🦊 *Anime Kitsune*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🦊 *Anime Kitsune*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -97,7 +98,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `💙 *Anime Husbando*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `💙 *Anime Husbando*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -120,7 +121,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `👧 *Anime Girl*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `👧 *Anime Girl*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -143,7 +144,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `👦 *Anime Boy*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `👦 *Anime Boy*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -166,7 +167,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `😺 *Catgirl Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `😺 *Catgirl Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -189,7 +190,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🦊 *Foxgirl Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🦊 *Foxgirl Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -212,7 +213,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🌸 *Kawaii Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🌸 *Kawaii Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -235,7 +236,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🎌 *Otaku Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🎌 *Otaku Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -258,7 +259,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `📖 *Manga Style*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `📖 *Manga Style*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -281,7 +282,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🎭 *Anime Cosplay*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🎭 *Anime Cosplay*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -304,7 +305,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🎒 *Anime Schoolgirl*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🎒 *Anime Schoolgirl*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -327,7 +328,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🧹 *Anime Maid*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🧹 *Anime Maid*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -350,7 +351,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `👔 *Anime Uniform*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `👔 *Anime Uniform*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -373,7 +374,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `✨ *Fantasy Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `✨ *Fantasy Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -396,7 +397,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `⚔️ *Anime Warrior*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `⚔️ *Anime Warrior*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -419,7 +420,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🗡️ *Anime Samurai*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🗡️ *Anime Samurai*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -442,7 +443,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🥷 *Anime Ninja*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🥷 *Anime Ninja*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -465,7 +466,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🪄 *Magical Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🪄 *Magical Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -488,7 +489,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `😈 *Demon Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `😈 *Demon Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -511,7 +512,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `👼 *Angel Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `👼 *Angel Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -534,7 +535,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🧛 *Vampire Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🧛 *Vampire Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -557,7 +558,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🧝 *Elf Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🧝 *Elf Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -580,7 +581,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `👸 *Princess Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `👸 *Princess Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -603,7 +604,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🤴 *Prince Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🤴 *Prince Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -626,7 +627,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🍼 *Chibi Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🍼 *Chibi Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -649,7 +650,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🎤 *Idol Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🎤 *Idol Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -672,7 +673,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🎮 *Gamer Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🎮 *Gamer Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -695,7 +696,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🤖 *Cyberpunk Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🤖 *Cyberpunk Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -718,7 +719,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🌺 *Aesthetic Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🌺 *Aesthetic Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -741,7 +742,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `📼 *Vintage Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `📼 *Vintage Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -764,7 +765,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `⚽ *Sport Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `⚽ *Sport Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -787,7 +788,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `❄️ *Winter Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `❄️ *Winter Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -810,7 +811,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `☀️ *Summer Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `☀️ *Summer Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -833,7 +834,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🌸 *Spring Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🌸 *Spring Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -856,7 +857,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🍂 *Autumn Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🍂 *Autumn Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -879,7 +880,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🌙 *Moonlight Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🌙 *Moonlight Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -902,7 +903,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `⭐ *Starlight Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `⭐ *Starlight Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -925,7 +926,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🌅 *Sunset Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🌅 *Sunset Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -948,7 +949,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🌧️ *Rainy Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🌧️ *Rainy Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -971,7 +972,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `☁️ *Cloudy Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `☁️ *Cloudy Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -994,7 +995,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🌊 *Ocean Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🌊 *Ocean Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -1017,7 +1018,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `⛰️ *Mountain Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `⛰️ *Mountain Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -1040,7 +1041,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🌲 *Forest Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🌲 *Forest Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -1063,7 +1064,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🌸 *Cherry Blossom Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🌸 *Cherry Blossom Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -1086,7 +1087,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🐉 *Dragon Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🐉 *Dragon Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -1109,7 +1110,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🔥 *Phoenix Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `🔥 *Phoenix Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -1132,7 +1133,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `👻 *Spirit Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`
+            caption: `👻 *Spirit Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
@@ -1155,7 +1156,7 @@ cmd({
         
         await conn.sendMessage(mek.chat, {
             image: { url: imageUrl },
-            caption: `🔮 *Mystic Anime*\n🎨 *Artist:* ${artist}\n\n> 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩
+            caption: `🔮 *Mystic Anime*\n🎨 *Artist:* ${artist}\n\n> SAHIL-MD`
         }, { quoted: mek });
     } catch (error) {
         console.error("❌ Error:", error);
