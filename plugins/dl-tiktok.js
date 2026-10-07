@@ -1,4 +1,4 @@
-// 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩
+// ERFAN-MD
 import { fileURLToPath } from 'url';
 import path from 'path';
 import axios from 'axios';
@@ -9,7 +9,7 @@ const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename);
 
 // ═══════════════════════════════════════════════════════════
-// 🎵 TIKTOK COMMAND - ERINE STYLE IN 𝐒𝐀𝐇𝐈𝐋 STRUCTURE
+// 🎵 TIKTOK COMMAND - ERINE STYLE IN ERFAN STRUCTURE
 // ═══════════════════════════════════════════════════════════
 
 const TIKTOK_APIS = [
@@ -85,7 +85,7 @@ cmd({
         const duration = formatDuration(res.duration);
         const views = formatNumber(res.play_count || res.play || res.views || 0);
 
-        const BOT_NAME = userConfig?.BOT_NAME || config.BOT_NAME || "𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩";
+        const BOT_NAME = userConfig?.BOT_NAME || config.BOT_NAME || "ERFAN-MD";
 
         const caption = `┌˚₊ ๑│ ᴛ ɪ ᴋ ᴛ ᴏ ᴋ  ᴅ ʟ │๑˚₊ 🎵
 ┇ 
@@ -107,7 +107,7 @@ cmd({
                     from,
                     {
                         image: { url: img },
-                        caption: `┌˚₊ ๑│ ᴛ ɪ ᴋ ᴛ ᴏ ᴋ  s ʟ ɪ ᴅ ᴇ │๑˚₊ 📸\n┇\n│ 🖼️ *Slide:* ${index} / ${total}\n┇\n└˚₊ ๑ ────────────── ๑˚₊\n> © ${𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩}`
+                        caption: `┌˚₊ ๑│ ᴛ ɪ ᴋ ᴛ ᴏ ᴋ  s ʟ ɪ ᴅ ᴇ │๑˚₊ 📸\n┇\n│ 🖼️ *Slide:* ${index} / ${total}\n┇\n└˚₊ ๑ ────────────── ๑˚₊\n> © ${BOT_NAME}`
                     },
                     { quoted: mek }
                 );
@@ -137,7 +137,7 @@ cmd({
 
     } catch (e) {
         console.error("❌ Error in .tiktok:", e);
-        await reply(`┌˚₊ ๑│ s ʏ s ᴛ ᴇ ᴍ  ᴇ ʀ ʀ ᴏ ʀ │๑˚₊ ❌\n┇ Gagal memproses video TikTok:\n┇ ${e.message || e}\n└˚₊ ๑ ────────────── ๑˚₊\n> © 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩`);
+        await reply(`┌˚₊ ๑│ s ʏ s ᴛ ᴇ ᴍ  ᴇ ʀ ʀ ᴏ ʀ │๑˚₊ ❌\n┇ Gagal memproses video TikTok:\n┇ ${e.message || e}\n└˚₊ ๑ ────────────── ๑˚₊\n> © ERFAN-MD`);
         await conn.sendMessage(from, { react: { text: '❌', key: m.key } });
     }
 });
