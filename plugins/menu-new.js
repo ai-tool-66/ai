@@ -199,21 +199,24 @@ ${menuSections}
                 } 
             } 
         }, { quoted: mek });
-        // ===== MENU AUDIO =====
-try {
-    await conn.sendMessage(from, {
-        audio: { url: 'https://tmpfiles.org/dl/wKAZllzXDqiz/catbox_upload_1791357923786.mp3' },
-        mimetype: 'audio/mpeg',
-        ptt: true,
-        fileName: 'SAHIL-MD Menu'
-    }, { quoted: mek });
-} catch (err) {
-    console.log("Menu audio error:", err);
-}
-// ======================
 
-    } catch (e) { 
-        console.log(e); 
-        reply(`Error: ${e}`); 
+        // ===== MENU AUDIO =====
+        try {
+            await conn.sendMessage(from, {
+                audio: { url: 'https://tmpfiles.org/dl/wKAZllzXDqiz/catbox_upload_1791357923786.mp3' },
+                mimetype: 'audio/mpeg',
+                ptt: true,
+                fileName: 'SAHIL-MD Menu'
+            }, { quoted: mek });
+        } catch (err) {
+            console.log("Menu audio error:", err);
+        }
+        // ======================
+
+    } catch (e) {
+        console.log(e);
+        reply(`Error: ${e}`);
+    }
+});
     } 
 });
