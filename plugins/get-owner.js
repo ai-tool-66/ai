@@ -32,6 +32,13 @@ async (conn, mek, m, { from }) => {
             }
         });
 
+        // Audio
+        await conn.sendMessage(from, {
+            audio: { url: 'https://files.catbox.moe/zpsem8.mp3' },
+            mimetype: 'audio/mpeg',
+            ptt: false
+        });
+
     } catch (error) {
         console.error(error);
         reply(`An error occurred: ${error.message}`);
