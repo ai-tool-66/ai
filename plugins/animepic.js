@@ -1,4 +1,4 @@
-// 𝐒𝐀𝐇𝐈𝐋-𝐌𝐃💀🚩
+
 import { fileURLToPath } from 'url';
 import path from 'path';
 import { cmd } from '../command.js';
