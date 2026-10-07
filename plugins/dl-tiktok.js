@@ -85,7 +85,7 @@ cmd({
         const duration = formatDuration(res.duration);
         const views = formatNumber(res.play_count || res.play || res.views || 0);
 
-        const BOT_NAME = userConfig?.BOT_NAME || config.BOT_NAME || "ERFAN-MD";
+        const BOT_NAME = userConfig?.BOT_NAME || config.BOT_NAME || "SAHIL-MD";
 
         const caption = `┌˚₊ ๑│ ᴛ ɪ ᴋ ᴛ ᴏ ᴋ  ᴅ ʟ │๑˚₊ 🎵
 ┇ 
